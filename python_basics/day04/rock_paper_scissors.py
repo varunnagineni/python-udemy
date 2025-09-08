@@ -7,12 +7,13 @@ print(computer_choice)
 
 result_lose = "You lose"
 result_win = "You win"
+result_draw = "Draw!"
 if choice == 0:
     if computer_choice == 2:
         print("Computer Choice: Scissors")
         print(result_win)
     elif computer_choice == 0:
-        print("Try again")
+        print(result_draw)
     else:
         print(result_lose)
 elif choice == 1:
@@ -20,7 +21,7 @@ elif choice == 1:
         print("Computer Choice: Rock")
         print(result_win)
     elif computer_choice == 1:
-        print("Try again")
+        print(result_draw)
     else:
         print(result_lose)
 elif choice == 2:
@@ -28,7 +29,7 @@ elif choice == 2:
         print("Computer Choice: Paper")
         print(result_win)
     elif computer_choice == 2:
-        print("Try again")
+        print(result_draw)
     else:
         print(result_lose)
 else:
