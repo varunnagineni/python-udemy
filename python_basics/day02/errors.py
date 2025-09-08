@@ -14,3 +14,5 @@ print("Number of letter in your name: ", len(input("Enter your name: ")))
 
 # IndentationError: expected an indented block
 # SyntaxError
+
+# IndexError: string index out of range 
